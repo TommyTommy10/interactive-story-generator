@@ -1,0 +1,19 @@
+{
+  "title": "La tua avventura",
+  "nodes": {
+    "start": {
+      "text": "Ti trovi in una foresta oscura. Cosa fai?",
+      "choices": [
+        { "text": "Vai a sinistra", "next": "left_path" },
+        { "text": "Vai a destra", "next": "right_path" }
+      ]
+    },
+    "left_path": {
+      "text": "Hai trovato un fiume. Cosa fai?",
+      "choices": [
+        { "text": "Attraversa il fiume", "next": "cross_river" },
+        { "text": "Segui il fiume", "next": "follow_river" }
+      ]
+    }
+  }
+}
